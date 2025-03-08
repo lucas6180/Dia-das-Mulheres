@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+body{
+    background-color: #191919;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 8%;
+}
+header .date{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+header .date h1{
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+}
+header .special-day{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+header .special-day h1{
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+}
+main{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+}
+main section{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+main section .image{
+    width: 350px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+}
+main section .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+}
+main section .text{
+    width: 100%;
+    height: 200px;
+}
+main section .text h1{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+main section .text p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
