@@ -16,7 +16,7 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding: 8%;
+    padding: 30px;
 }
 header .date{
     width: 100%;
@@ -45,7 +45,7 @@ main{
     height: 720px;
     display: flex;
     justify-content: center;
-    padding: 8%;
+    padding: 30px;
 }
 main section{
     width: 100%;
